@@ -232,3 +232,66 @@ body {
     width: 50%;
     font-weight: 100;
 }
+/* ENGINE */
+
+.engine {
+    height: 120vh;
+    background: url(../assets/engine-bg.png) center no-repeat, #000000;
+    background-size: 100%;
+}
+
+.engine-text {
+    color: #ffffff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 80%;
+}
+
+.text-left {
+    max-width: 30%;
+    text-align: right;
+    margin: 0em 1em;
+}
+
+.text-right {
+    max-width: 30%;
+    margin: 0em 1em;
+}
+
+.engine-title {
+    margin-bottom: 1em;
+}   
+
+.engine-subtitle {
+    font-family: 'Figtree', sans-serif;
+}
+
+/* HISTORY-PAGE */
+
+.history-page {
+    height: 100vh;
+    background-color: #000000;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.page-img {
+    height: 400px;
+    border-radius: 14px;
+}
+
+.page-inner {
+    color: #ffffff;
+    max-width: 30%;
+}
+
+.page-title {
+    margin-bottom: 1em;
+}
+
+.page-subtitle {
+    font-family: 'Figtree', sans-serif;
+}
